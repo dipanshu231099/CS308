@@ -1,4 +1,5 @@
-# CS308
+# Dipanshu Verma B18054 CS308
+## My Project Repository
 This is designed for displaying my work in CS308 Large Application Practicum
 Created by Dipanshu B18054
 
