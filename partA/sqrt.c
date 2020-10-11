@@ -16,9 +16,9 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 
-	/* checking the number is not invalid */
+	/* checking the number is not positive */
 	if(input<0){
-		printf("The number must be a non-negative integer.\n");
+		printf("Sqrt of %d is %fi\n",input,sqrt(-1*input));
 	}
 	/* else if the number is okay */
 	else{
