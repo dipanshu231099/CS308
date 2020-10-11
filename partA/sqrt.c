@@ -18,14 +18,14 @@ int main(int argc, char* argv[]) {
 
 	/* checking the number is not positive */
 	if(input<0){
-		printf("Sqrt of %d is %fi\n",input,sqrt(-1*input));
+		printf("DEBUG: Sqrt of %d is %fi\n",input,sqrt(-1*input));
 	}
 	/* else if the number is okay */
 	else{
-		printf("Sqrt of %d is %f\n",input,sqrt(input));
+		printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
 	}
 
-	printf("End of program. Exiting.\n");
+	printf("DEBUG: End of program. Exiting.\n");
 
 	return(0);
 
