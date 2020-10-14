@@ -26,5 +26,10 @@ int main() {
     inputVector(&vector2);
     Vector c = addVectors(vector1, vector2);
     printVector(&c);
+
+    float norm_mod_vec1 = modulusVectors(vector1);
+    float norm_mod_vec2 = modulusVectors(vector2);
+    printf( "Modulus/norm of vector1: %f ,Modulus/norm of vector2: %f",norm_mod_vec1,norm_mod_vec2);
+
     return 0;
 }
