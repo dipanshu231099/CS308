@@ -24,7 +24,9 @@ int main() {
     Vector vector1, vector2;
     inputVector(&vector1);
     inputVector(&vector2);
-    Vector c = addVectors(vector1, vector2);
-    printVector(&c);
+    
+    // computing the sum of the above two vectors
+    Vector sumVector = addVectors(vector1, vector2);
+    printVector(&sumVector);
     return 0;
 }
