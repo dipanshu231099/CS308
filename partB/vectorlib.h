@@ -25,7 +25,7 @@ Vector elementProductVectors(Vector a, Vector b);
 float dotProductVectors(Vector a, Vector b);
 
 /* function to tell the modulus of a vector */
-float modulusVectors(Vector a);
+float vecnorm(Vector a);
 
 /* function to determine angle between two vectors in radians */
 float angleBetweenVectors(Vector a, Vector b);

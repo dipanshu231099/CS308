@@ -24,6 +24,10 @@ int main() {
     Vector vector1, vector2;
     inputVector(&vector1);
     inputVector(&vector2);
+
+    float norm_mod_vec1 = vecnorm(vector1);
+    float norm_mod_vec2 = vecnorm(vector2);
+    printf( "Modulus/norm of vector1: %f ,Modulus/norm of vector2: %f",norm_mod_vec1,norm_mod_vec2);
     
     // computing the sum of the above two vectors
     Vector sumVector = addVectors(vector1, vector2);
