@@ -1,7 +1,7 @@
 #include "vectorlib.h"
 
 /* function to tell the modulus of a vector */
-float vecnorm(Vector a){
+float modulusVectors(Vector a){
     float norm=0;
 
     for(int i=0;i<DIMENSION;i++){

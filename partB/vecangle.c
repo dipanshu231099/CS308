@@ -6,5 +6,5 @@ float angleBetweenVectors(Vector a, Vector b){ // arguments - 2 vectors b/w whic
     float dotProduct = dotProductVectors(a,b);	// dot product between vec-a, vec-b
     float modA = modulusVectors(a);	// len or mod of vec-a
     float modB = modulusVectors(b);	// len or mod of vec-b
-    return dotProduct/(modA*modB);	// applying formula mentioned above
+    return acos(dotProduct/(modA*modB));	// applying formula mentioned above
 }
