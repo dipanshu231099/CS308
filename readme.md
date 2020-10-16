@@ -1,6 +1,6 @@
 # CS-308 Git lab-1
 
-Library dedicated for operations pertaining to R^4 real vectors.
+The code for CS-308 containing both partA and partB of all members
 
 ## PartA
 
@@ -23,7 +23,11 @@ The part B of the assignment has been done in a group. The commits post partA wi
 ## Contributors
 
 A. Dipanshu Verma
+
 B. Ayushman Dixit
+
 C. Ujjwal Soni
+
 D. Bhumanyu Goyal
+
 E. Harish Jaglan 
